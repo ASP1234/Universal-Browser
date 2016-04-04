@@ -22,7 +22,7 @@ public class ServiceServerImpl extends UnicastRemoteObject implements ServiceSer
         serviceList=new HashMap();
         serviceList.put("Dice Rolling Service",new DiceService());
         serviceList.put("Day of the Week Service",new DayOfTheWeekService());
-        serviceList.put("Visual Music Service",new MiniMusicService());
+       // serviceList.put("Visual Music Service",new MiniMusicService());
 
     }
 

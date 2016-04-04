@@ -7,7 +7,7 @@ import javax.swing.*;
 /**
  * Created by NMSH on 04-04-2016.
  */
-public class DiceService {
+public class DiceService implements Service{
 
     JLabel label;
     JComboBox numOfDice;
