@@ -17,6 +17,7 @@ public class DiceService implements Service{
         JPanel panel=new JPanel();
         JButton button=new JButton("Roll `em!");
         String[] choices={"1","2","3","4","5"};
+        numOfDice=new JComboBox(choices);
         label =new JLabel("Dice values here");
 
         button.addActionListener(new RollemListener());
